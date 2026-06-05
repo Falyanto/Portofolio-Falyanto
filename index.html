@@ -87,24 +87,29 @@
 
     <!-- CONTACT -->
     <section class="contact" id="contact">
-      <h3>Contact Me</h3>
-      <hr />
-      <form id="contact-form">
-        <label>Name:</label><br />
-        <input type="text" name="nama" required /><br />
-        <label>Email:</label><br />
-        <input type="email" name="email" required /><br />
-        <label>Message:</label><br />
-        <textarea name="pesan" rows="3" required></textarea><br />
-        <button type="submit">Send Message</button>
-      </form>
-
-      <div id="form-result"></div>
-
-      <div class="contact-details">
-        <p>Email: <a href="mailto:m.falyanto7@gmail.com">m.falyanto7@gmail.com</a></p>
-        <p>Instagram: <a href="https://www.instagram.com/falyanto7" target="_blank">@falyanto7</a></p>
-      </div>
+  <h3>Contact Me</h3>
+  <hr />
+  
+  <form id="contact-form" action="https://formspree.io/f/xgoboowr" method="POST">
+    <label>Name:</label><br />
+    <input type="text" name="nama" required /><br />
+    
+    <label>Email:</label><br />
+    <input type="email" name="email" required /><br />
+    
+    <label>Message:</label><br />
+    <textarea name="pesan" rows="3" required></textarea><br />
+    
+    <button type="submit">Send Message</button>
+  </form>
+  
+  <div id="form-result"></div>
+  <div class="contact-details">
+    <p>Email: <a href="mailto:m.falyanto7@gmail.com">m.falyanto7@gmail.com</a></p>
+    <p>Instagram: <a href="https://www.instagram.com/falyanto7" target="_blank">@falyanto7</a></p>
+  </div>
+  <hr class="section-line" />
+</section>
       <hr class="section-line" />
     </section>
   </main>
