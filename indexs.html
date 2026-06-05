@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1366, initial-scale=1.0"/>
+  <title>Portfolio - Falyanto</title>
+  <!-- Google Fonts: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="body.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">FALYANTO</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Profile</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO / BANNER -->
+    <section class="hero" id="home">
+      <div class="banner">
+        <span class="banner-title">ENGINEERING PORTFOLIO</span>
+        <span class="banner-desc">
+          Mechanical Engineering | Industrial Manufacturing | Automation<br>
+          Designing and maintaining future industrial solutions.
+        </span>
+        <div id="welcome-name"></div>
+      </div>
+      <h2>Welcome to My Portfolio</h2>
+      <p>I focus on mechanical design, maintenance, and automation systems to optimize industrial efficiency.</p>
+      <a href="#portfolio" class="cta-btn">See My Work</a>
+      <hr class="section-line" />
+    </section>
+
+    <!-- OUR PROFILE -->
+    <section class="about" id="about">
+      <h3>About Me</h3>
+      <hr />
+      <div class="profile-container">
+        <img src="images/Falyanto.jpg" alt="Falyanto Photo" class="profile-img" />
+        <p>Hi, my name is <strong>Falyanto</strong>. I am a Mechanical Engineering student at Semarang State Polytechnic with a deep interest in industrial manufacturing and automation. My expertise includes manufakturing, maintenance systems, and mechanical Design CAD/CAM (Solidwork, Iventor).</p>
+      </div>
+      <hr class="section-line" />
+    </section>
+
+    <!-- PORTFOLIO (SERTIFIKAT) -->
+    <section class="portfolio" id="portfolio">
+      <h3>Certificates & Achievements</h3>
+      <hr />
+      
+      <div class="portfolio-container">
+         <!-- Sertifikat 1 -->
+        <div class="portfolio-item">
+          <img src="images/Sertifikat Pneumatic.jpg" alt="Sertifikat Robotic" class="portfolio-img-item" />
+          <div class="portfolio-info">
+            <h4>Sertifikat Keahlian Pneumatic</h4>
+            <p>Sertifikasi keahlian pneumatic yang di selenggarakan oleh Politeknik Negeri Semarang yang bekerja sama dengan PT. Sinar Mutiara Cakrabuana (SMC).</p>
+          </div>
+        </div>
+        <!-- Sertifikat 2 -->
+        <div class="portfolio-item">
+          <img src="images/Sertifikat Finalis KRAI-41 (1).jpg" alt="Sertifikat Robotic" class="portfolio-img-item" />
+          <div class="portfolio-info">
+            <h4>Mekanikal Robotic</h4>
+            <p>Sertifikat penghargaan sebagai peserta Finalis Nasional dalam Kontes Robot ABU Indonesia (KRAI) Tahun 2025, menunjukkan keahlian dalam kerja tim dan perancangan robotika.</p>
+          </div>
+        </div>
+
+        <!-- Sertifikat 3 -->
+        <div class="portfolio-item">
+          <img src="images/Sertifikat Magang Industri.jpg" alt="Sertifikat Magang Industri" class="portfolio-img-item" />
+          <div class="portfolio-info">
+            <h4>Magang Industri</h4>
+            <p>Sertifikat Praktek Kerja Lapangan (PKL) di PT Pabrik Farmasi Zenith periode September - Desember, berfokus pada sistem maintenance mesin industri.</p>
+          </div>
+        </div>
+      </div>
+
+      <hr class="section-line" />
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <h3>Contact Me</h3>
+      <hr />
+      <form id="contact-form">
+        <label>Name:</label><br />
+        <input type="text" name="nama" required /><br />
+        <label>Email:</label><br />
+        <input type="email" name="email" required /><br />
+        <label>Message:</label><br />
+        <textarea name="pesan" rows="3" required></textarea><br />
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div id="form-result"></div>
+
+      <div class="contact-details">
+        <p>Email: <a href="mailto:m.falyanto7@gmail.com">m.falyanto7@gmail.com</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/falyanto7" target="_blank">@falyanto7</a></p>
+      </div>
+      <hr class="section-line" />
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Falyanto. All Rights Reserved.</p>
+  </footer>
+
+  <script src="js/scrip.js"></script>
+</body>
+</html>
